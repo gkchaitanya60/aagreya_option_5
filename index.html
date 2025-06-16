@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aagreya - IT Consulting Excellence</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Navigation -->
+    <nav class="floating-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="public/Aagreya Logo - transparent BG - 500.png" alt="Aagreya">
+            </div>
+            <div class="nav-items">
+                <a href="#home" class="nav-dot active" data-section="home">
+                    <span class="nav-tooltip">Home</span>
+                </a>
+                <a href="#services" class="nav-dot" data-section="services">
+                    <span class="nav-tooltip">Services</span>
+                </a>
+                <a href="#about" class="nav-dot" data-section="about">
+                    <span class="nav-tooltip">About</span>
+                </a>
+                <a href="#work" class="nav-dot" data-section="work">
+                    <span class="nav-tooltip">Work</span>
+                </a>
+                <a href="#contact" class="nav-dot" data-section="contact">
+                    <span class="nav-tooltip">Contact</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Split Screen Design -->
+    <section id="home" class="hero-section">
+        <div class="hero-left">
+            <div class="hero-content">
+                <div class="hero-badge">IT CONSULTING EXCELLENCE</div>
+                <h1 class="hero-title">
+                    <span class="title-line">We Don't Just</span>
+                    <span class="title-line highlight">Transform</span>
+                    <span class="title-line">Your Business</span>
+                    <span class="title-line small">We Revolutionize It</span>
+                </h1>
+                <div class="hero-stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Support</div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <button class="cta-primary">Start Your Journey</button>
+                    <button class="cta-secondary">
+                        <i class="fas fa-play"></i>
+                        Watch Story
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="hero-visual">
+                <div class="floating-cards">
+                    <div class="tech-card card-1">
+                        <i class="fab fa-aws"></i>
+                        <span>Cloud</span>
+                    </div>
+                    <div class="tech-card card-2">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Security</span>
+                    </div>
+                    <div class="tech-card card-3">
+                        <i class="fas fa-database"></i>
+                        <span>Data</span>
+                    </div>
+                    <div class="tech-card card-4">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Mobile</span>
+                    </div>
+                    <div class="tech-card card-5">
+                        <i class="fas fa-cogs"></i>
+                        <span>DevOps</span>
+                    </div>
+                    <div class="tech-card card-6">
+                        <i class="fas fa-brain"></i>
+                        <span>AI/ML</span>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Technology">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section - Hexagonal Grid -->
+    <section id="services" class="services-section">
+        <div class="container-fluid">
+            <div class="services-header">
+                <h2 class="section-title">Our Expertise Ecosystem</h2>
+                <p class="section-subtitle">Six pillars of technological excellence</p>
+            </div>
+            <div class="hexagon-grid">
+                <div class="hex-item hex-1">
+                    <div class="hex-content">
+                        <div class="hex-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud Solutions</h3>
+                        <p>AWS, Azure, GCP migration and optimization</p>
+                        <div class="hex-features">
+                            <span>Migration</span>
+                            <span>Optimization</span>
+                            <span>Security</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hex-item hex-2">
+                    <div class="hex-content">
+                        <div class="hex-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Cybersecurity</h3>
+                        <p>Advanced threat protection and compliance</p>
+                        <div class="hex-features">
+                            <span>Threat Detection</span>
+                            <span>Compliance</span>
+                            <span>Auditing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hex-item hex-3">
+                    <div class="hex-content">
+                        <div class="hex-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI & Automation</h3>
+                        <p>Intelligent process automation and ML</p>
+                        <div class="hex-features">
+                            <span>Machine Learning</span>
+                            <span>RPA</span>
+                            <span>Analytics</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hex-item hex-4">
+                    <div class="hex-content">
+                        <div class="hex-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Data Engineering</h3>
+                        <p>Big data solutions and analytics platforms</p>
+                        <div class="hex-features">
+                            <span>Data Lakes</span>
+                            <span>ETL/ELT</span>
+                            <span>Visualization</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hex-item hex-5">
+                    <div class="hex-content">
+                        <div class="hex-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Digital Products</h3>
+                        <p>Custom applications and mobile solutions</p>
+                        <div class="hex-features">
+                            <span>Web Apps</span>
+                            <span>Mobile</span>
+                            <span>APIs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hex-item hex-6">
+                    <div class="hex-content">
+                        <div class="hex-icon">
+                            <i class="fas fa-infinity"></i>
+                        </div>
+                        <h3>DevOps</h3>
+                        <p>CI/CD pipelines and infrastructure as code</p>
+                        <div class="hex-features">
+                            <span>CI/CD</span>
+                            <span>Containers</span>
+                            <span>Monitoring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section - Timeline Design -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-layout">
+                <div class="about-left">
+                    <div class="about-sticky">
+                        <h2 class="section-title">20 Years of Innovation</h2>
+                        <p class="about-intro">From startup to enterprise, we've been the catalyst for digital transformation across industries.</p>
+                        <div class="about-image">
+                            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Team">
+                            <div class="image-overlay">
+                                <div class="overlay-content">
+                                    <h4>Our Team</h4>
+                                    <p>50+ Certified Experts</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2004</div>
+                            <div class="timeline-content">
+                                <h4>Foundation</h4>
+                                <p>Started as a small IT consulting firm with a vision to transform businesses through technology.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2010</div>
+                            <div class="timeline-content">
+                                <h4>Cloud Pioneer</h4>
+                                <p>Became early adopters of cloud technology, helping 100+ companies migrate to the cloud.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2015</div>
+                            <div class="timeline-content">
+                                <h4>Security Focus</h4>
+                                <p>Expanded into cybersecurity, protecting businesses from evolving digital threats.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2020</div>
+                            <div class="timeline-content">
+                                <h4>AI Revolution</h4>
+                                <p>Integrated AI and machine learning solutions, automating processes for maximum efficiency.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2024</div>
+                            <div class="timeline-content">
+                                <h4>Future Ready</h4>
+                                <p>Leading the next wave of digital transformation with cutting-edge technologies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section - Masonry Layout -->
+    <section id="work" class="work-section">
+        <div class="container-fluid">
+            <div class="work-header">
+                <h2 class="section-title">Success Stories</h2>
+                <div class="work-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+                    <button class="filter-btn" data-filter="finance">Finance</button>
+                    <button class="filter-btn" data-filter="retail">Retail</button>
+                    <button class="filter-btn" data-filter="manufacturing">Manufacturing</button>
+                </div>
+            </div>
+            <div class="masonry-grid">
+                <div class="masonry-item large" data-category="healthcare">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Healthcare">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">Healthcare</div>
+                            <h4>Digital Health Platform</h4>
+                            <p>Revolutionized patient care with AI-powered diagnostics and telemedicine integration.</p>
+                            <div class="project-stats">
+                                <span>40% faster diagnosis</span>
+                                <span>60% cost reduction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="finance">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Finance">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">Finance</div>
+                            <h4>Banking Security</h4>
+                            <p>Implemented zero-trust architecture for a major financial institution.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item tall" data-category="retail">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Retail">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">Retail</div>
+                            <h4>E-commerce Revolution</h4>
+                            <p>Built scalable marketplace platform handling 1M+ daily transactions.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="manufacturing">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Manufacturing">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">Manufacturing</div>
+                            <h4>Smart Factory</h4>
+                            <p>IoT-enabled production monitoring and predictive maintenance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item wide" data-category="finance">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fintech">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">Fintech</div>
+                            <h4>Payment Gateway</h4>
+                            <p>Secure, scalable payment processing system with real-time fraud detection.</p>
+                            <div class="project-impact">
+                                <div class="impact-item">
+                                    <span class="impact-number">99.9%</span>
+                                    <span class="impact-label">Uptime</span>
+                                </div>
+                                <div class="impact-item">
+                                    <span class="impact-number">$50M</span>
+                                    <span class="impact-label">Processed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="healthcare">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Medical">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">Healthcare</div>
+                            <h4>Medical AI</h4>
+                            <p>Machine learning models for early disease detection and treatment optimization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - Modern Card Design -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Let's Build Something Amazing Together</h2>
+                <p>Ready to transform your business? Our experts are standing by to discuss your next big project.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-4567</p>
+                                <span>Mon-Fri 9AM-6PM EST</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Email Us</h4>
+                                <p>hello@aagreya.com</p>
+                                <span>We respond within 2 hours</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Visit Us</h4>
+                                <p>123 Innovation Drive<br>Tech City, TC 12345</p>
+                                <span>By appointment only</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-header">
+                            <h3>Start Your Project</h3>
+                            <p>Tell us about your vision</p>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="tel" id="phone" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="company" placeholder="Company Name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <textarea id="comments" rows="4" placeholder="Comments & Additional Information" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - Horizontal Compact Design -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="public/Aagreya Logo - transparent BG - 500.png" alt="Aagreya">
+                <p>Transforming businesses through innovative technology solutions since 2004.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="footer-social">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Aagreya IT Consulting. All rights reserved. | Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
